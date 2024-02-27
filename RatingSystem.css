@@ -1,0 +1,31 @@
+.rating-system {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .thumbs-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .thumbs-up,
+  .thumbs-down {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #eee;
+  }
+  
+  .thumbs-up:hover,
+  .thumbs-down:hover {
+    background-color: #ddd;
+  }
+  
+  .selected {
+    background-color: #3498db;
+    color: #fff;
+  }
+  

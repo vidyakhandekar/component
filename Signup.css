@@ -1,0 +1,70 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Josefin Sans', sans-serif;
+}
+.main
+{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.login-img
+{
+   width: 40vmax;
+   height: 80vmin;
+}
+.card{
+
+   
+  border: none !important;
+ 
+}
+.card-header
+{
+   font-size: 3vw;
+   font-weight: 700;
+   color: #385A64;
+}
+.card-body, .card-header, .card-footer
+{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   border: none !important;
+   background-color: white !important;
+}
+.signin-ip
+{
+   display: flex;
+   margin: 3vmax;
+   padding: 1vmin;
+   border: 3px solid #FF4F5A;
+   border: none;
+   border-bottom: 2px solid  #FF4F5A;
+   background-color: white;
+   color:black;
+}
+
+.card-body .btn
+{
+   background: #FF4F5A !important;
+   color: aliceblue;
+   width: 7vw;
+   height: 7vh;
+   margin-bottom: 2vh;
+   border-radius: 5px;
+   border: none;
+
+
+}
+.card-footer span a
+{
+   text-decoration: none;
+   color: #FF4F5A;
+   font-weight: 700;
+}
